@@ -1,0 +1,19 @@
+{
+    "name": "godv/crontab-worker",
+    "description": "php crontab",
+    "require": {
+        "jeremeamia/superclosure": "^2.0",
+        "pwfisher/command-line-php": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "jlb",
+            "email": "497012571@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CrontabWorker\\": "src/"
+        }
+    }
+}
